@@ -180,3 +180,16 @@ export const titleCase = (str, delimiter = ' ') => {
 	}
 	return str.join(' ');
 };
+
+
+export const tTypes = [
+  "project",
+  "actionPlan",
+  "policy",
+  "technicalResource",
+  "financingResource",
+  "event",
+  "technology",
+  "organisation",
+  "stakeholder",
+];

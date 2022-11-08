@@ -75,7 +75,7 @@ const CountryTransnationalFilter = ({
 			<Select
 				showSearch
 				allowClear
-				dropdownClassName='multiselection-dropdown'
+				popupClassName='multiselection-dropdown'
 				mode={countrySelectMode || ''}
 				placeholder='Countries'
 				options={countryOpts}
