@@ -16,7 +16,7 @@ export const TopBar = () => {
 				<nav>
 					<Link href='/knowledge-library'>Knowledge library</Link>
 					&nbsp;|&nbsp;
-					<span>Research database</span>
+          <Link href="/research/database">Research database</Link>
 				</nav>
 			</div>
 		</div>
