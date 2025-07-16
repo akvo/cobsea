@@ -1,20 +1,38 @@
 @import '../../vars.scss';
 
 .learning-centre {
+    padding: 110px 200px;
     padding-top: 140px;
-    margin: 0 auto;
-    width: 1148px;
-
-    @media screen and (max-width: $bpMobile) {
-        padding: 140px 20px 20px;
-        width: 100%;
-    }
 
     h1 {
         font-size: 38px;
         font-weight: 600;
         font-family: var(--font-archia), sans-serif;
         color: #000;
+    }
+
+    .category-dropdown {
+        .ant-select-selector {
+            border: none;
+            height: auto;
+            border-radius: 4px;
+
+            .ant-select-selection-search-input {
+                height: 100%;
+            }
+
+            .ant-select-selection-item {
+                color: $green07;
+                font-family: var(--font-archia), sans-serif;
+                font-weight: 700;
+                height: 40px;
+                line-height: 40px;
+            }
+
+            .ant-select-selection-item-content {
+                text-transform: uppercase;
+            }
+        }
     }
 
     .header {
@@ -142,9 +160,7 @@
             img {
                 width: 100%;
                 height: auto;
-                max-height: 300px;
                 display: block;
-                object-fit: cover;
             }
 
             .content {

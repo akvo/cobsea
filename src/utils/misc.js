@@ -304,3 +304,15 @@ export const pagination = {
     return '<div class="' + className + '">' + '<span/>' + '</div>';
   },
 };
+
+export function getStrapiUrl() {
+  let $env = process.env.NODE_ENV || 'test';
+  const domains = {
+    test: 'unep-gpml.akvotest.org',
+    development: 'unep-gpml.akvotest.org',
+    staging: 'unep-gpml.akvotest.org',
+    prod: 'globalplasticshub.org',
+    production: 'globalplasticshub.org',
+  };
+  return `https://${domains[$env]}/strapi`;
+}

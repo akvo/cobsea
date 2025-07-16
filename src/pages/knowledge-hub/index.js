@@ -367,7 +367,7 @@ const KnowledgeHub = ({ setLoginVisible, isAuthenticated }) => {
           <Input
             className="src"
             allowClear
-            placeholder={`Search The Knowledge Hub`}
+            placeholder={`Search The Knowledge Library`}
             value={searchInput}
             onChange={handleSearchChange}
           />

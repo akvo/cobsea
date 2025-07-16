@@ -5,6 +5,7 @@ import axios from 'axios';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { Search } from 'components/icons';
 import { CloseOutlined } from '@ant-design/icons';
+import { getStrapiUrl } from 'utils/misc';
 
 function CapacityBuilding({ initialItems = [] }) {
   const [items, setItems] = useState(initialItems);
@@ -21,7 +22,7 @@ function CapacityBuilding({ initialItems = [] }) {
     'Other',
   ];
 
-  const strapiURL = 'https://globalplasticshub.org/strapi';
+  const strapiURL = getStrapiUrl();
 
   const handleTagChange = (value) => {
     setSelectedTags(value);
@@ -189,7 +190,7 @@ const LearningCentreCard = ({ data, loading }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {item.image ? <img src={item.image} alt={item.title} /> : null}
+              {item.image && <img src={item.image} alt={item.title} />}
               <div className="content">
                 <p className="category">{item.category}</p>
                 <h2>{item.title}</h2>

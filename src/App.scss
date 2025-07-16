@@ -101,6 +101,9 @@ ul {
 
   .ant-select-arrow {
     svg {
+      height: 16px;
+      width: 16px;
+
       path {
         stroke: $green07;
       }
@@ -136,8 +139,11 @@ ul {
   font-family: var(--font-dm-sans), sans-serif;
 
   input {
+    background-color: $inputBg;
+
     &::placeholder {
       color: $darkBlue03 !important;
+      font-family: var(--font-dm-sans), sans-serif;
     }
   }
 
