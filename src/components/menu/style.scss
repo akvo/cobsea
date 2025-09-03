@@ -22,10 +22,13 @@
 
   .combined {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
     gap: 20px;
+    .cobsea{
+      transform: translateY(3px);
+    }
 
     @media screen and (max-width: $bpMobile) {
       gap: 6px;

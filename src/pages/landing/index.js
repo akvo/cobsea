@@ -87,10 +87,10 @@ const Home = () => {
             </a>
           </div>
           <div className="col">
-            <img src="/giz.svg" alt="GPML" width={199} />
+            <img src="/giz.svg" alt="GIZ" width={199} />
           </div>
           <div className="col">
-              <img src="/giz-buv.svg" alt="GPML" width={150} />
+              <img src="/giz-buv.jpg" alt="GIZ BUV" width={160} />
           </div>
           <div className="col">
             <a

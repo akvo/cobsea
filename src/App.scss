@@ -223,8 +223,10 @@ ul {
   }
 
   .logo-a {
+    display: flex;
+    align-items: flex-start;
     .unep {
-      margin-right: 10px;
+      margin-right: 20px;
     }
   }
 

@@ -168,7 +168,7 @@ const MenuBar = ({ landing }) => {
             <div className="logo-container">
               <div className="combined">
                 <img src="/unep.svg" className="unep" alt="UNEP" />
-                <img src="/cobsea.svg" alt="COBSEA" />
+                <img className="cobsea" src="/cobsea.svg" alt="COBSEA" />
               </div>
             </div>
           </Link>
