@@ -45,13 +45,12 @@ const Home = () => {
             networking services on marine litter and plastic pollution for
             informed action.
           </h4>
+          <Link to="/about-us">
           <Button
             type="ghost"
             size="large"
-            onClick={() => {
-              setModalOpen(true);
-            }}
           >{`Read more`}</Button>
+          </Link>
         </div>
       </div>
       <div className="highlights">
