@@ -87,7 +87,7 @@ const Home = () => {
             </a>
           </div>
           <div className="col">
-            <img src="/giz.svg" alt="GIZ" width={199} />
+            <img src="/giz.jpg" alt="GIZ" width={199} />
           </div>
           <div className="col">
               <img src="/giz-buv.jpg" alt="GIZ BUV" width={160} />
@@ -98,11 +98,11 @@ const Home = () => {
               rel="noreferrer"
               href="https://www.unep.org/regions/asia-and-pacific/our-projects/sea-circular-project"
             >
-              <img src="/sea-circular.svg" alt="SEA Circular" width={115} />
+              <img src="/sea-circular.jpg" alt="SEA Circular" width={115} />
             </a>
           </div>
           <div className="col">
-            <img src="/sweden-sverige.svg" alt="Sweden Sverige" width={163} />
+            <img src="/sweden-sverige.jpg" alt="Sweden Sverige" width={163} />
           </div>
         </div>
       </div>
